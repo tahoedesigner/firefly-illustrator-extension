@@ -28,10 +28,10 @@ npm install
 ```
 npm start
 ```
-## Env 
+## Env Example 
 ```
-# FIREFLY_ID="Your id here"
-# FIREFLY_API_KEY="Your key here"
-# FIREFLY_ORG="Your org here"
+FIREFLY_ID="Your id here"
+FIREFLY_API_KEY="Your key here"
+FIREFLY_ORG="Your org here"
 ```
 
