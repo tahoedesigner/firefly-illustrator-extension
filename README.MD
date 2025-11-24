@@ -41,16 +41,16 @@ node server.js
 # Install Extension
 Copy the entire illustrator-firefly-extension folder to:
 
-### Mac: /Library/Application Support/Adobe/CEP/extensions/ 
-### Windows: C:\Program Files\Common Files\Adobe\CEP\extensions\
+#### Mac: /Library/Application Support/Adobe/CEP/extensions/ 
+#### Windows: C:\Program Files\Common Files\Adobe\CEP\extensions\
 
 ## Enable CEP Debugging
-###Mac:
+#### Mac:
 ```
 defaults write com.adobe.CSXS.11 PlayerDebugMode 1
 ```
 
-###Windows:
+#### Windows:
 
 - Run regedit as administrator
 - Navigate to: HKEY_CURRENT_USER\Software\Adobe\CSXS.11
