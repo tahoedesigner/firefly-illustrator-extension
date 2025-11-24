@@ -1,4 +1,4 @@
-# Firefly Illustrator extension
+# Illustrator Firefly Extension
 
 
 ## Architecture
