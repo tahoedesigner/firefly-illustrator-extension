@@ -18,3 +18,20 @@ illustrator-firefly-extension/
     └── host/
         └── index.jsx
 ```
+
+## Install
+```
+npm install
+```
+
+## Start
+```
+npm start
+```
+## Env 
+```
+# FIREFLY_ID="Your id here"
+# FIREFLY_API_KEY="Your key here"
+# FIREFLY_ORG="Your org here"
+```
+
