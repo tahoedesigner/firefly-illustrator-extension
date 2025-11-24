@@ -1,7 +1,8 @@
 # Firefly Illustrator extension
 
 
-##  Architecture
+## Architecture
+```
 illustrator-firefly-extension/
 ├── proxy-server/
 │   ├── server.js
@@ -16,3 +17,4 @@ illustrator-firefly-extension/
     │   └── CSInterface.js (download separately)
     └── host/
         └── index.jsx
+```
