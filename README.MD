@@ -20,7 +20,7 @@ illustrator-firefly-extension/
 ```
 
 # Install and start the proxy-server
-## Add .env here > ./server/.env
+## Add .env 
 ```
 FIREFLY_ID="Your id here"
 FIREFLY_API_KEY="Your key here"
