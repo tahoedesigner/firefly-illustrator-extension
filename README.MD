@@ -20,9 +20,8 @@ illustrator-firefly-extension/
 ```
 
 # Install and start the proxy-server
-## Add .env 
+## Add .env here > ./server/.env
 ```
-# Step 1: Add .env here > ./server/.env
 FIREFLY_ID="Your id here"
 FIREFLY_API_KEY="Your key here"
 FIREFLY_ORG="Your org here"
@@ -30,14 +29,12 @@ FIREFLY_ORG="Your org here"
 
 ## Install Server
 ```
-# Step 2
 cd server
 npm install
 ```
 
 ## Start Server
 ```
-# Step 3
 node server.js
 ```
 
