@@ -19,19 +19,39 @@ illustrator-firefly-extension/
         └── index.jsx
 ```
 
-## Install
+## Install Server
 ```
 npm install
 ```
 
-## Start
-```
-npm start
-```
-## Env Example 
+## Add Env Example 
 ```
 FIREFLY_ID="Your id here"
 FIREFLY_API_KEY="Your key here"
 FIREFLY_ORG="Your org here"
 ```
+
+## Start Server
+```
+node server.js
+```
+
+## Install Extension
+Copy the entire illustrator-firefly-extension folder to:
+Mac: /Library/Application Support/Adobe/CEP/extensions/
+Windows: C:\Program Files\Common Files\Adobe\CEP\extensions\
+
+## Enable CEP Debugging
+Mac:
+```
+defaults write com.adobe.CSXS.11 PlayerDebugMode 1
+```
+
+Windows:
+
+Run regedit as administrator
+Navigate to: HKEY_CURRENT_USER\Software\Adobe\CSXS.11
+Create DWORD: PlayerDebugMode = 1
+
+
 
