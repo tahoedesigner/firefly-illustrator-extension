@@ -39,6 +39,28 @@ node server.js
 ```
 
 # Install Extension
+
+## Prerequisites
+- Adobe Illustrator CC 2020 or later
+- CEP 11 or later
+
+## Mac/Linux
+
+1. Open Terminal
+2. Navigate to the extension folder
+3. Run the setup script:
+   ```bash
+   chmod +x setup.sh
+   ./setup.sh
+   ```
+
+## Windows
+
+1. Right-click `setup.bat`
+2. Select "Run as Administrator"
+
+### Manual Installation
+
 Copy the entire illustrator-firefly-extension folder to:
 
 #### Mac: /Library/Application Support/Adobe/CEP/extensions/ 
